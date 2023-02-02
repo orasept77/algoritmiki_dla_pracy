@@ -1,3 +1,9 @@
+Klasa Node jest pojedynczym elementem dwukierunkowej listy, która przechowuje dane, referencję do następnego elementu i poprzedniego elementu.
+
+Klasa DoublyLinkedList jest implementacją dwukierunkowej listy, która zawiera metody takie jak append, delete, search, reverse i insert_head, a także metody do iterowania i drukowania elementów listy. Klasa ta także zawiera metody indeksowania i ustawiania wartości za pomocą operatorów [] i [] =.
+
+Na końcu pliku znajduje się przykład tworzenia i używania obiektu klasy DoublyLinkedList.
+
 class Node(object):
     """ A Doubly-linked lists' node. """
     def __init__(self, data=None, next=None, prev=None):
